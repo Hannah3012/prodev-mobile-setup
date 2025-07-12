@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# 📱 First Mobile App Setup with Expo Router
+ This project demonstrates how to scaffold and set up a basic mobile application using **Expo Router**, modify its content, run it on a mobile device, and reset the project environment.
+## Setup Instructions
+   ### 1. Navigate to Your Project Directory 
+     cd prodev-mobile-setup 
+   ### 2. Initialize the Expo Project with Router Template
+      Use the latest Expo CLI to scaffold your project:
+      npx create-expo-app@latest . 
+      Selected expo-router template
+      Allowed it to install dependencies automatically
+   ### 3. Modify the Home Screen
+      Open the file:
+      app/(tabs)/index.tsx 
+      Find this line:
+      <Text className="font-bold text-xl">Welcome!</Text> 
+      And replace it with:
+      <Text className="font-bold text-xl">First App Created</Text> 
+   ### 4. Run and Test Your Application
+      Start the Expo development server:
+      npx expo start 
+      On Mobile Devices:
+      iOS: Scan the QR code in the terminal using the Camera app
+      Android: Use the Expo Go app to scan the QR code
+      You should now see "First App Created" on the home screen.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### 🔄 Reset the Application
+   Reset your project using:
+   npm run reset-project 
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 🔍 What Happened After Reset:
+   Cleared Expo cache and .expo folder
+   Removed node_modules and lock files
+   Reinstalled all dependencies
+   App still worked as expected
+   Ensured the project was in a clean, fresh state
+### Summary
+    Scaffolded project using Expo Router
+    Modified home screen text successfully
+    Tested app in Expo Go
+    Observed the impact of the reset-project command
+### Tools Used
+   Node.js
+   Expo CLI
+   React Native
+   Expo Router
+   VS Code
