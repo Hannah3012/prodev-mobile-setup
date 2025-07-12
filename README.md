@@ -4,6 +4,7 @@
 **Date:** July 10, 2025  
 **Device:** Android
 
+
 ## ✅ Steps I Followed
 
 1. Visited the Expo Go page: [https://expo.dev/go](https://expo.dev/go)
