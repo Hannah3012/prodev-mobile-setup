@@ -53,9 +53,6 @@ export default function Index() {
     </SafeAreaProvider>
   );
 }
-
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
