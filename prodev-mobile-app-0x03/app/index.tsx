@@ -31,6 +31,7 @@ export default function Index() {
           </View>
           <Text style={styles.forgotPasswordText}>Forgot password?</Text>
         </View>
+        
 
         <TouchableOpacity style={styles.button}>
           <Text style={styles.buttonText}>Sign in</Text>
